@@ -1,0 +1,108 @@
+/*   S Y S T E M   */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+span{
+    font-size: 10pt;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid #ccc;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
+.d-grid{
+    display: grid;
+}
+.dg-col-2{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.dg-col-3{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.dg-col-4{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*  N A V  */
+
+.nl-nav{
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nl-logo{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.nl-navs{
+    padding: 6px;
+}
+.nl-navs__list{
+    list-style-type: none;
+}
+.nl-navs__list li{
+    display: inline;
+    padding: 0 20px;
+}
+
+/*    F I R S T  N E W S    */
+
+.nl-first_news{
+    padding: 3rem 0;
+}
+.nl-first_news__content{
+    padding-left: 50px;
+}
+.nl-first_news__content h1{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.nl-first_news__content p{
+    padding: 20px 0;
+    font-size: 16px;
+}
+.nl-first_news__content span:first-of-type{
+    color: #bbb;
+    text-transform: uppercase;
+}
+.nl-first_news__content__col{
+    padding: 30px 0;
+}
+
+/*  T H R E E   C O L U M N   N E W S  */
+.nl-three_col_news{
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.nl-three_col_news img{
+    padding-bottom: 20px;
+}
+.nl-three_col_news span:first-of-type{
+    color: #aaa;
+    font-size: 10px;
+}
+.nl-three_col_news h3{
+    padding: 20px 0;
+    font-size: 20px;
+}
+.nl-three_col_news span{
+    text-transform: uppercase;
+}
